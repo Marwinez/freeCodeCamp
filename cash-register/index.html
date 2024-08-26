@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="site">
+        <header>
+            <h1>Cash Register</h1>
+        </header>
+        <main>
+            <div id="upper">
+                <div id="change-due-div">
+                    <div id="change-due">
+        
+                    </div>
+                </div>
+                <div>
+                    <h3>Total: $1.87</h3>
+                    <label for="cash">Money from client: </label>
+                    <input name="cash" id="cash" /><br />
+                    <button id="purchase-btn" onclick="calculate()">Calculate</button>
+                </div>
+                </div>
+                <div id="lower">
+                <div id="register-div">
+                    <div id="register">
+                        <h3>Cash register</h3>
+                        <table>
+                            <tr>
+                                <th>Currency Unit</th>
+                                <th>Amount</th>
+                            </tr>
+                            <tr>
+                                <td>Penny</td>
+                                <td id="currency-0"></td>
+                            </tr>
+                            <tr>
+                                <td>Nickel</td>
+                                <td id="currency-1"></td>
+                            </tr>
+                            <tr>
+                                <td>Dime</td>
+                                <td id="currency-2"></td>
+                            </tr>
+                            <tr>
+                                <td>Quarter</td>
+                                <td id="currency-3"></td>
+                            </tr>
+                            <tr>
+                                <td>Dollar</td>
+                                <td id="currency-4"></td>
+                            </tr>
+                            <tr>
+                                <td>Five Dollars</td>
+                                <td id="currency-5"></td>
+                            </tr>
+                            <tr>
+                                <td>Ten Dollars</td>
+                                <td id="currency-6"></td>
+                            </tr>
+                            <tr>
+                                <td>Twenty Dollars</td>
+                                <td id="currency-7"></td>
+                            </tr>
+                            <tr>
+                                <td>One Hundred Dollars</td>
+                                <td id="currency-8"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>by <a href="https://github.com/Marwinez" target="_blank" title="Github"><strong>Martin Szum</strong></a></p>
+          </footer>
+    </div>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>

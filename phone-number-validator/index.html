@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>US Phone number validator</title>  
+  </head>
+  <body>
+    <div id="site">
+      <header>
+        <h1>US Telephone Number Validator</h1>
+      </header>
+      <main>
+        <section>
+          <div>
+            <form>
+              <label for="user-input">Enter phone number:</label>
+              <input type="text" id="user-input" name="user-input" /><br />
+              <button type="reset" id="clear-btn" onclick="cleanPage(); return false">CLEAR</button>
+              <button id="check-btn" type="reset" onclick="validate(); return false">CHECK</button>
+            </form>
+          </div>
+          <div id="results-div"></div>
+        </section>
+      </main>
+      <footer>
+        <p>by <a href="https://github.com/Marwinez" target="_blank" title="Github"><strong>Martin Szum</strong></a></p>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

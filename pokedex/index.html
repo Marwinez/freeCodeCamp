@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Pokédex - a pokemon wiki</title>
+  </head>
+  <body>
+    <div id="site">
+        <div id="inner-site">
+            <header>
+                <h1>Pokémon wiki</h1>
+            </header>
+            <main>
+                <div id="searchbar">
+                    <input name="search-input" id="search-input" type="text" placeholder="Enter name or ID..." required/>
+                    <button id="search-button">Search</button>
+                </div>
+                <h2><span id="pokemon-id"></span> <span id="pokemon-name"><span style="color: #bbb; cursor:not-allowed">#000 Name</span></h2>
+                <article id="pokemon">
+                    <div id="pokemon-sprites">
+                        <div id="sprite-front" class="img-div"></div>
+                        <div id="sprite-back" class="img-div"></div>
+                    </div>
+                    <div id="details-div">
+                        <table id="details-table">
+                            <tr>
+                                <td class="attribute">Weight </td>
+                                <td class="stat" id="weight"></td>
+                            </tr>
+                            <tr>
+                                <td class="attribute">Heights </td>
+                                <td class="stat" id="height"></td>
+                            </tr>
+                            <tr>
+                                <td class="attribute">Types </td>
+                                <td class="stat" id="types-td">
+                                    <div id="types"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="attribute">HP </td>
+                                <td class="stat" id="hp"></td>
+                            </tr>
+                            <tr>
+                                <td class="attribute">Attack </td>
+                                <td class="stat" id="attack"></td>
+                            </tr>
+                            <tr>
+                                <td class="attribute">Defense </td>
+                                <td class="stat" id="defense"></td>
+                            </tr>
+                            <tr>
+                                <td class="attribute">Special attack</td>
+                                <td class="stat" id="special-attack"></td>
+                            </tr>
+                            <tr>
+                                <td class="attribute">Special defense </td>
+                                <td class="stat" id="special-defense"></td>
+                            </tr>
+                            <tr>
+                                <td class="attribute">Speed </td>
+                                <td class="stat" id="speed"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </article>
+            </main>
+            <footer>
+                <span>Created by <a href="https://github.com/Marwinez" target="_blank" title="Github"><strong>Martin Szum</strong></a></span>
+            </footer>
+            <script src="./script.js"></script>
+        </div>
+    </div>
+  </body>
+</html>

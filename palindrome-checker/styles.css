@@ -1,0 +1,66 @@
+body { 
+    margin: 0 auto;
+    background-color: #555;
+    font-family: Tahoma;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  #palchecker {
+    max-width: 1000px;
+    text-align: center;
+    margin: 25vh auto auto auto;
+  }
+  
+  #palchecker form {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  #palchecker, input, button {
+    font-size: 40px;
+  }
+  
+  label {
+    margin-bottom: 1rem;
+  }
+  
+  label, input, button, #result, h1 {
+    color: white;
+    text-shadow: 3px 3px #222;
+  }
+  
+  input {
+    background-color: #333;
+    border: 0;
+    margin-bottom: 2rem;
+    border-radius: 2px;
+    text-align: center;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  button {
+    max-width: 200px;
+    margin: auto;
+    background-color: #444;
+    border: 0;
+    border-radius: 6px;
+    transition-duration: 0.5s;
+    margin-bottom: 2rem;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #222;
+    transition-duration: 0.5s;
+  }
